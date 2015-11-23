@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_driver.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\inc_graphic_types.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\inc_graphic_interfaces.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\inc_systems_interfaces.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{dd6f89ec-229b-4f6c-ae7d-24ab20c47fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{fee3e769-76dc-428c-9eb4-fddba63669e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics">
+      <UniqueIdentifier>{8f1132b0-d06b-47ef-a872-88b3dab39596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Sound">
+      <UniqueIdentifier>{327d72da-77ba-440f-b619-2903524b60a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Input">
+      <UniqueIdentifier>{05df3876-c4a7-42bf-8ac1-6194badfa527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Systems">
+      <UniqueIdentifier>{9b8c2303-b054-46cb-85ba-080c1a2d0ddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

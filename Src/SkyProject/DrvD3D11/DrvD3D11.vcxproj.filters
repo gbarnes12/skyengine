@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_drvd3d11.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Buffers\skyD3D11ConstantBuffer.h">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Buffers\skyD3D11IndexBuffer.h">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Buffers\skyD3D11VertexBuffer.h">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\skyD3D11Resource.h">
+      <Filter>Components\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\skyD3D11ResourceManager.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\skyD3D11Texture.h">
+      <Filter>Components\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shaders\skyD3D11PixelShader.h">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shaders\skyD3D11VertexShader.h">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Buffers\skyD3D11DepthBuffer.h">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\States\skyD3D11DepthStencilState.h">
+      <Filter>Components\Resources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\States\skyD3D11RasterizerState.h">
+      <Filter>Components\Resources\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\skyD3D11GfxSwapChain.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\skyD3D11GfxSystem.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\skyD3D11GfxDevice.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\skyD3D11GfxStateManager.h">
+      <Filter>Components\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_drvd3d11_function.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Textures\skyD3D11RenderTarget.h">
+      <Filter>Components\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Mesh\skyD3D11Primitive.h">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shaders\skyD3D11Effect.h">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\States\skyD3D11SamplerState.h">
+      <Filter>Components\Resources\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Resources\Buffers\skyD3D11ConstantBuffer.cpp">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Buffers\skyD3D11IndexBuffer.cpp">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Buffers\skyD3D11VertexBuffer.cpp">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\skyD3D11Resource.cpp">
+      <Filter>Components\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\skyD3D11ResourceManager.cpp">
+      <Filter>Components\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Textures\skyD3D11Texture.cpp">
+      <Filter>Components\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shaders\skyD3D11PixelShader.cpp">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shaders\skyD3D11VertexShader.cpp">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Buffers\skyD3D11DepthBuffer.cpp">
+      <Filter>Components\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\States\skyD3D11DepthStencilState.cpp">
+      <Filter>Components\Resources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\States\skyD3D11RasterizerState.cpp">
+      <Filter>Components\Resources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\skyD3D11GfxSwapChain.cpp">
+      <Filter>Components\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\skyD3D11GfxSystem.cpp">
+      <Filter>Components\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\skyD3D11GfxDevice.cpp">
+      <Filter>Components\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\skyD3D11GfxStateManager.cpp">
+      <Filter>Components\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="inc_drvd3d11_function.cpp">
+      <Filter>Inc</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Textures\skyD3D11RenderTarget.cpp">
+      <Filter>Components\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Mesh\skyD3D11Primitive.cpp">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shaders\skyD3D11Effect.cpp">
+      <Filter>Components\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\States\skyD3D11SamplerState.cpp">
+      <Filter>Components\Resources\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{2a6c83eb-f3ae-42d3-8785-6504fd560774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{50feddbb-057c-4207-923e-c724acece662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources">
+      <UniqueIdentifier>{2657a755-4c17-4be0-9b4d-8469ba775253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Systems">
+      <UniqueIdentifier>{78c37f9e-3af5-45cf-99af-6bde801c7921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Buffers">
+      <UniqueIdentifier>{0ccc5557-d5e4-46d3-b3e1-ec2b5dbf930c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Textures">
+      <UniqueIdentifier>{14c3af83-4fbe-4070-85fc-80f51b4b9850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Mesh">
+      <UniqueIdentifier>{804c5a03-1822-499c-bc69-739d297bdf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Shaders">
+      <UniqueIdentifier>{8cc0d0fa-682a-4c04-b572-68d82ed908e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\States">
+      <UniqueIdentifier>{4ab4dc22-bdec-4fdc-9d16-e0fce6fc6bf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

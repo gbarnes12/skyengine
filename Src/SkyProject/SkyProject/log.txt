@@ -1,0 +1,1 @@
+[23.10.2013, 19:26:26][INFO] skyFileLog: log system now listens to channel 0 or enum skyLogChannel::TXT_FILE.

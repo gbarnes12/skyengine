@@ -1,0 +1,44 @@
+#define SKY_DECLARE_PROCESSIBLE(CLASS, NAME)/
+SKY_DECLARE_PROCESSIBLE_VAR(CLASS, skyProcess, mProcess)/
+
+#define SKY_DECLARE_PROCESSIBLE_VAR(CLASS, NAME, VAR)/
+SKY_DECLARE_PROCESSIBLE_CLASS(CLASS, NAME)/
+NAME VAR;/
+
+#define SKY_DECLARE_PROCESSIBLE_CLASS(CLASS, NAME) /
+protected: /
+class NAME : public skyProcess { /
+public: /
+
+	public virtual skyVoid CLASS::NAME::OnProcess(); /
+public: /
+	public static skyVoid CLASS::NAME::SetEnabled ( const skyBool a_bValue ) { this->m_bEnabled = a_bValue; } /
+	public static skyVoid CLASS::NAME::GetEnabled ( skyVoid ) const { return this->m_bEnabled; } /
+public: /
+	public skyVoid CLASS::NAME::Register ( CLASS* a_pInstance ); /
+	public skyVoid CLASS::NAME::Unregister ( ); /
+private: /
+   CLASS* m_pInstance; /
+private:
+   static skyBool m_bEnabled; 
+}; /
+
+#define SKY_DEFINE_PROCESSIBLE_CLASS(CLASS, NAME, FUNC)
+skyVoid CLASS::NAME::OnProcess () { /
+	if(!m_pInstance) { / 
+		m_pInstance->FUNC();
+	} /
+} /
+/
+skyVoid CLASS::NAME::Unregister () { /
+	m_pInstance = NULL; /
+	skyProcessor::GetInstance()->Unregister(this); /
+} /
+/ 
+skyVoid CLASS::NAME::Register( CLASS* a_pInstance ) { /
+	Unregister(); /
+	if(a_pInstance) { /
+		m_pInstance = a_pInstance; / 
+		skyProcess::GetInstance()->Register(this);	
+	} /
+} /

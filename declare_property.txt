@@ -1,0 +1,24 @@
+#define SKY_DECLARE_PROPERTY_SET ( TYPE, INSTANCE, NAME ) /
+inline skyVoid SetNAME ( const TYPE& value ) /
+{ / 
+	this->INSTANCE = value;/
+}/
+
+#define SKY_DECLARE_PROPERTY_GET ( TYPE, INSTANCE, NAME ) /
+inline TYPE GetNAME ( const TYPE& value ) const /
+{ / 
+	reutrn this->INSTANCE;/
+}/
+
+#define SKY_PROPERTY_GET ( TYPE, INSTANCE, NAME ) /
+SKY_DECLARE_PROPERTY_GET ( TYPE, INSTANCE, NAME ) /
+
+#define SKY_PROPERTY_SET ( TYPE, INSTANCE, NAME )
+SKY_DECLARE_PROPERTY_SET ( TYPE, INSTANCE, NAME) /
+
+#define SKY_PROPERTY_GETSET ( TYPE, INSTANCE, NAME ) / 
+SKY_DECLARE_GET ( TYPE, INSTANCE, NAME) / 
+SKY_DECLARE_PROPERTY_SET ( TYPE, INSTANCE, NAME ) / 
+
+
+SKY_PROPERTY_SET ( std::string, m_strUsername, Username )

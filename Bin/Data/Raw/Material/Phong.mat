@@ -1,0 +1,22 @@
+{
+ "Name": "PHONG",
+ "Parameters": {
+	"Color" : [0.25, 0.25, 0.25, 1.0],
+	"Diffuse": {
+		"Color" : [1.0, 1.0, 1.0, 1.0],
+		"Intensity" : 1.0,
+		"Texture": {
+			"File": "cube.jpg",
+			"Sampler": {}
+		}
+	},
+	"Specular": {
+		"Color" : [1.0, 1.0, 1.0, 1.0],
+		"Intensity" : 0.0,
+		"Shinieness" : 0
+	},
+	"Ambient" : {
+		"Intensity" : 0.1
+	}
+ }
+}

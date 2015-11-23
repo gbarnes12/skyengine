@@ -1,0 +1,13 @@
+TODO ENgine
+
+- effekt klasse um leichter constant, texturen und sampler zu setzen etc!
+- material klasse rein für daten 
+- register module methode in main direkt am anfang aufrufen damit man bequem alle modules registrieren kann!
+- hierachisches actor system um eine art scene graph auf dieser ebene zu besitzen. 
+- components mit properties ausstatten z.B. GetMesh() oder SetMesh(); SetMaterial() GetMaterial() etc.
+- resource system mit loadern umbauen dann gibts ImageResource, MeshResource TextResource usw. 
+mit ResourceUtils::CreateImage(); etc. 
+- imageeffects
+
+
+uvm. 

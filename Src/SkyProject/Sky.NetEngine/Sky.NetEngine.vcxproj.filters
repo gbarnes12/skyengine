@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Rendering\D3D11Renderer.h">
+      <Filter>Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Utils\clr_scoped_ptr.h">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Application\skyEditorApplication.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Application\D3D11Application.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stdafx.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Rendering\D3D11Renderer.cpp">
+      <Filter>Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Application\skyEditorApplication.cpp">
+      <Filter>Components\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Application\D3D11Application.cpp">
+      <Filter>Components\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{1de0732e-b0f8-4c21-8be0-ecc3138f9676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{1c33b3de-0c3b-4a41-ae51-f254008e362a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{ebc2f2b1-ce58-419c-a58f-6c84520aad58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendering">
+      <UniqueIdentifier>{f87ccfac-95e2-44c5-8e97-90b9fdfe9521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils">
+      <UniqueIdentifier>{49677290-6381-4ce6-876d-0eae931b65c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Application">
+      <UniqueIdentifier>{6064a100-97f6-4a34-8f08-2194af3b3d44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\app.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\app.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

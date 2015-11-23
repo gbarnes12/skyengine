@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_resource.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_resource_types.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\skyResourceDatabase.h">
+      <Filter>Components\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="System\skyResourceSystem.h">
+      <Filter>Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\skyResourceCache.h">
+      <Filter>Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_resource_interfaces.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Database\skyResourceDatabase.cpp">
+      <Filter>Components\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="System\skyResourceSystem.cpp">
+      <Filter>Components\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\skyResourceCache.cpp">
+      <Filter>Components\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{4d080b29-a2bb-4bd4-99dc-b8101f42aa45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{77d31a99-a483-4b1e-a5b4-bf15b8a75cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Database">
+      <UniqueIdentifier>{9e0a0d14-463e-481a-848b-d99236c581e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\System">
+      <UniqueIdentifier>{1a6b1207-f0ce-45c5-b98a-a51eba85908a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

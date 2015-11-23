@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Application\GameApplication.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_game.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_extern.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{889d42a2-b98a-4ed6-b769-681533de3c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Application">
+      <UniqueIdentifier>{9d700f04-b038-43d1-92c3-fbdcfb32fe04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Logic">
+      <UniqueIdentifier>{455fe30d-e8b7-4247-b939-b256d3d49919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Views">
+      <UniqueIdentifier>{2a1c4537-a8f7-4d69-8b56-9eed90d90150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{da7d8941-e10b-43bb-ae5b-1d4f9d4cf086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern">
+      <UniqueIdentifier>{229fa4cf-5358-4d51-8263-0a1ab33dfe2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\GameApplication.cpp">
+      <Filter>Components\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>

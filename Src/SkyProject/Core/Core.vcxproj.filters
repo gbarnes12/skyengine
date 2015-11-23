@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_core.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\skyMemoryWatcher.h">
+      <Filter>Components\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\skyILog.h">
+      <Filter>Components\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\skyLogDispatcher.h">
+      <Filter>Components\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\skyLogs.h">
+      <Filter>Components\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Profiler\skyProfiler.h">
+      <Filter>Components\Debug\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Profiler\skyProfilerSection.h">
+      <Filter>Components\Debug\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Logs\skyFileLog.h">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Logs\skyHTMLLog.h">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Logs\skyNetworkLog.h">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\skyTimer.h">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\skyHashedString.h">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\skyHelper.h">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\skyTemplates.h">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\skyUDPSocket.h">
+      <Filter>Components\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\skyPlatform.h">
+      <Filter>Components\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\skyPlatformFile.h">
+      <Filter>Components\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\skyIWindow.h">
+      <Filter>Components\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Threading\skyIThread.h">
+      <Filter>Components\Platform\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Threading\skyICriticalSection.h">
+      <Filter>Components\Platform\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32\skyWin32Platform.h">
+      <Filter>Components\Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32\Threading\skyWin32Thread.h">
+      <Filter>Components\Platform\Win32\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32\Threading\skyWin32CriticalSection.h">
+      <Filter>Components\Platform\Win32\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\skyAsyncFileOperation.h">
+      <Filter>Components\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\skyFileSystem.h">
+      <Filter>Components\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\skyIFile.h">
+      <Filter>Components\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\skyIFileDevice.h">
+      <Filter>Components\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Files\Sync\skyDiskFile.h">
+      <Filter>Components\FileSystem\Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Devices\skyZipFileDevice.h">
+      <Filter>Components\FileSystem\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Devices\skyDiskFileDevice.h">
+      <Filter>Components\FileSystem\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_core_types.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_core_helpers.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\skyConfigBoolType.h">
+      <Filter>Components\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\skyConfigFloatType.h">
+      <Filter>Components\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\skyConfigIntType.h">
+      <Filter>Components\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\skyConfigs.h">
+      <Filter>Components\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\skyConfigStringType.h">
+      <Filter>Components\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_core_extern.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Win32\skyWindow.h">
+      <Filter>Components\Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\DirectXCollision.h">
+      <Filter>Components\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\DirectXColors.h">
+      <Filter>Components\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\DirectXMath.h">
+      <Filter>Components\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\skyMath.h">
+      <Filter>Components\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\DirectXPackedVector.h">
+      <Filter>Components\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\skyRuntimeClass.h">
+      <Filter>Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\skyRefBaseClass.h">
+      <Filter>Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\skyComPtr.h">
+      <Filter>Components\System</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_core_version.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{b3c61b3a-a2e2-4027-8a3e-4343d9e9189a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{1bef47a8-3527-437f-9739-74d18ff1ba72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Debug">
+      <UniqueIdentifier>{93d4d0a1-eacf-4c69-ad3d-9ae6037f9393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Debug\Logs">
+      <UniqueIdentifier>{7cee11b9-a29b-4823-ab12-bde0ca90c66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Debug\Profiler">
+      <UniqueIdentifier>{7fff8871-af0a-480d-89df-c22eb684d2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils">
+      <UniqueIdentifier>{67622f08-d405-46ab-bbc7-8a0a01132eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Network">
+      <UniqueIdentifier>{af776c4c-14e5-4276-ab45-48f7e907983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Platform">
+      <UniqueIdentifier>{67295019-b8f0-46ac-ae38-bbd43ca4896a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Platform\Threading">
+      <UniqueIdentifier>{aebe265f-fb72-4c21-87af-b349172f816d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Platform\Win32">
+      <UniqueIdentifier>{c0f4e582-0a41-475c-a6ac-f5cc463a973c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Platform\Win32\Threading">
+      <UniqueIdentifier>{01219840-1d76-4fcd-bab3-df2e8755a83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FileSystem">
+      <UniqueIdentifier>{c2eb712b-793b-4ea6-a7ab-9e2c110633d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FileSystem\Files">
+      <UniqueIdentifier>{fc92e985-7fc0-4c4a-bf48-16d27ad42560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FileSystem\Devices">
+      <UniqueIdentifier>{8fd43d03-28b5-4f65-b312-a823359ecae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FileSystem\Files\Sync">
+      <UniqueIdentifier>{a95a3291-0f6b-42e5-b7cf-3d6766d48181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\FileSystem\Files\Async">
+      <UniqueIdentifier>{ed2ff474-5691-4de8-971f-804821585722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Memory">
+      <UniqueIdentifier>{841dc4c5-c763-4fae-9b14-abf09cc3d56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Config">
+      <UniqueIdentifier>{b555be33-5c6a-4e8c-9464-86c86441682e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Math">
+      <UniqueIdentifier>{850268b3-92c2-4826-80b7-4f2b65e7e0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\System">
+      <UniqueIdentifier>{c910524f-ce72-430a-b80c-0a5a707e8b40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Debug\skyILog.cpp">
+      <Filter>Components\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\skyLogDispatcher.cpp">
+      <Filter>Components\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\skyLogs.cpp">
+      <Filter>Components\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Profiler\skyProfiler.cpp">
+      <Filter>Components\Debug\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Profiler\skyProfilerSection.cpp">
+      <Filter>Components\Debug\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Logs\skyFileLog.cpp">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Logs\skyHTMLLog.cpp">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Logs\skyNetworkLog.cpp">
+      <Filter>Components\Debug\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\skyHashedString.cpp">
+      <Filter>Components\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\skyHelper.cpp">
+      <Filter>Components\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\skyTimer.cpp">
+      <Filter>Components\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\skyUDPSocket.cpp">
+      <Filter>Components\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\skyPlatform.cpp">
+      <Filter>Components\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\skyPlatformFile.cpp">
+      <Filter>Components\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Win32\skyWin32Platform.cpp">
+      <Filter>Components\Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\skyAsyncFileOperation.cpp">
+      <Filter>Components\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\skyFileSystem.cpp">
+      <Filter>Components\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Files\Sync\skyDiskFile.cpp">
+      <Filter>Components\FileSystem\Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Devices\skyDiskFileDevice.cpp">
+      <Filter>Components\FileSystem\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Devices\skyZipFileDevice.cpp">
+      <Filter>Components\FileSystem\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\skyConfigBoolType.cpp">
+      <Filter>Components\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\skyConfigFloatType.cpp">
+      <Filter>Components\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\skyConfigIntType.cpp">
+      <Filter>Components\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\skyConfigs.cpp">
+      <Filter>Components\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\skyConfigStringType.cpp">
+      <Filter>Components\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="inc_core_extern.cpp">
+      <Filter>Inc</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Win32\skyWindow.cpp">
+      <Filter>Components\Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="System\skyRuntimeClass.cpp">
+      <Filter>Components\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\skyRefBaseClass.cpp">
+      <Filter>Components\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\DirectXCollision.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\DirectXMathConvert.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\DirectXMathMatrix.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\DirectXMathMisc.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\DirectXMathVector.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\skyMath.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+    <None Include="Math\DirectXPackedVector.inl">
+      <Filter>Components\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

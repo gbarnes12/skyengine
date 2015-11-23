@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4E9B3F7-BD96-4254-9BE0-28E06D648259}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Core</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\Solution\Properties\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\Solution\Properties\Common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SKY_BUILD_DEBUG;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SKY_BUILD_RELEASE;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Config\skyConfigBoolType.h" />
+    <ClInclude Include="Config\skyConfigFloatType.h" />
+    <ClInclude Include="Config\skyConfigIntType.h" />
+    <ClInclude Include="Config\skyConfigs.h" />
+    <ClInclude Include="Config\skyConfigStringType.h" />
+    <ClInclude Include="Debug\Logs\skyFileLog.h" />
+    <ClInclude Include="Debug\Logs\skyHTMLLog.h" />
+    <ClInclude Include="Debug\Logs\skyNetworkLog.h" />
+    <ClInclude Include="Debug\Profiler\skyProfiler.h" />
+    <ClInclude Include="Debug\Profiler\skyProfilerSection.h" />
+    <ClInclude Include="Debug\skyILog.h" />
+    <ClInclude Include="Debug\skyLogDispatcher.h" />
+    <ClInclude Include="Debug\skyLogs.h" />
+    <ClInclude Include="Debug\skyMemoryWatcher.h" />
+    <ClInclude Include="FileSystem\Devices\skyDiskFileDevice.h" />
+    <ClInclude Include="FileSystem\Devices\skyZipFileDevice.h" />
+    <ClInclude Include="FileSystem\Files\Sync\skyDiskFile.h" />
+    <ClInclude Include="FileSystem\skyAsyncFileOperation.h" />
+    <ClInclude Include="FileSystem\skyFileSystem.h" />
+    <ClInclude Include="FileSystem\skyIFile.h" />
+    <ClInclude Include="FileSystem\skyIFileDevice.h" />
+    <ClInclude Include="inc_core.h" />
+    <ClInclude Include="inc_core_extern.h" />
+    <ClInclude Include="inc_core_helpers.h" />
+    <ClInclude Include="inc_core_types.h" />
+    <ClInclude Include="inc_core_version.h" />
+    <ClInclude Include="Math\DirectXCollision.h" />
+    <ClInclude Include="Math\DirectXColors.h" />
+    <ClInclude Include="Math\DirectXMath.h" />
+    <ClInclude Include="Math\DirectXPackedVector.h" />
+    <ClInclude Include="Math\skyMath.h" />
+    <ClInclude Include="Network\skyUDPSocket.h" />
+    <ClInclude Include="Platform\skyIWindow.h" />
+    <ClInclude Include="Platform\skyPlatform.h" />
+    <ClInclude Include="Platform\skyPlatformFile.h" />
+    <ClInclude Include="Platform\Threading\skyICriticalSection.h" />
+    <ClInclude Include="Platform\Threading\skyIThread.h" />
+    <ClInclude Include="Platform\Win32\skyWin32Platform.h" />
+    <ClInclude Include="Platform\Win32\skyWindow.h" />
+    <ClInclude Include="Platform\Win32\Threading\skyWin32CriticalSection.h" />
+    <ClInclude Include="Platform\Win32\Threading\skyWin32Thread.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="System\skyComPtr.h" />
+    <ClInclude Include="System\skyRefBaseClass.h" />
+    <ClInclude Include="System\skyRuntimeClass.h" />
+    <ClInclude Include="Utils\skyHashedString.h" />
+    <ClInclude Include="Utils\skyHelper.h" />
+    <ClInclude Include="Utils\skyTemplates.h" />
+    <ClInclude Include="Utils\skyTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Config\skyConfigBoolType.cpp" />
+    <ClCompile Include="Config\skyConfigFloatType.cpp" />
+    <ClCompile Include="Config\skyConfigIntType.cpp" />
+    <ClCompile Include="Config\skyConfigs.cpp" />
+    <ClCompile Include="Config\skyConfigStringType.cpp" />
+    <ClCompile Include="Debug\Logs\skyFileLog.cpp" />
+    <ClCompile Include="Debug\Logs\skyHTMLLog.cpp" />
+    <ClCompile Include="Debug\Logs\skyNetworkLog.cpp" />
+    <ClCompile Include="Debug\Profiler\skyProfiler.cpp" />
+    <ClCompile Include="Debug\Profiler\skyProfilerSection.cpp" />
+    <ClCompile Include="Debug\skyILog.cpp" />
+    <ClCompile Include="Debug\skyLogDispatcher.cpp" />
+    <ClCompile Include="Debug\skyLogs.cpp" />
+    <ClCompile Include="FileSystem\Devices\skyDiskFileDevice.cpp" />
+    <ClCompile Include="FileSystem\Devices\skyZipFileDevice.cpp" />
+    <ClCompile Include="FileSystem\Files\Sync\skyDiskFile.cpp" />
+    <ClCompile Include="FileSystem\skyAsyncFileOperation.cpp" />
+    <ClCompile Include="FileSystem\skyFileSystem.cpp" />
+    <ClCompile Include="inc_core_extern.cpp" />
+    <ClCompile Include="Network\skyUDPSocket.cpp" />
+    <ClCompile Include="Platform\skyPlatform.cpp" />
+    <ClCompile Include="Platform\skyPlatformFile.cpp" />
+    <ClCompile Include="Platform\Win32\skyWin32Platform.cpp" />
+    <ClCompile Include="Platform\Win32\skyWindow.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="System\skyRefBaseClass.cpp" />
+    <ClCompile Include="System\skyRuntimeClass.cpp" />
+    <ClCompile Include="Utils\skyHashedString.cpp" />
+    <ClCompile Include="Utils\skyHelper.cpp" />
+    <ClCompile Include="Utils\skyTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\DirectXCollision.inl" />
+    <None Include="Math\DirectXMathConvert.inl" />
+    <None Include="Math\DirectXMathMatrix.inl" />
+    <None Include="Math\DirectXMathMisc.inl" />
+    <None Include="Math\DirectXMathVector.inl" />
+    <None Include="Math\DirectXPackedVector.inl" />
+    <None Include="Math\skyMath.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

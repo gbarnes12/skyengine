@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="[main]">
+      <UniqueIdentifier>{40b15f8b-c62d-4ebf-9d63-1d3a090d73e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[main]\[Win32]">
+      <UniqueIdentifier>{3c72ea0c-7da1-4c09-9048-066f3541c391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[main]\[Win8]">
+      <UniqueIdentifier>{6f3507d5-24cd-4925-b1ef-8b8a8fb4a615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[main]\[XboxOne]">
+      <UniqueIdentifier>{09cfe914-6081-4595-8761-e50f7a41715b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>[main]\[Win32]</Filter>
+    </ClCompile>
+    <ClCompile Include="main_test.cpp">
+      <Filter>[main]\[Win32]</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{bc4666b7-de53-4d89-be83-2b41bff8cdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Extern">
+      <UniqueIdentifier>{0e04a0cc-d941-4520-8a62-2c6e0f4fbe52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Extern\rapidjson">
+      <UniqueIdentifier>{fdcdb8b2-e796-48ed-8f1b-a4743af1d659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Extern\rapidjson\internal">
+      <UniqueIdentifier>{621f590c-d1d4-43da-b4ef-4ce2a657ba46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Application">
+      <UniqueIdentifier>{3b44c41d-7a6c-4b9b-a6e0-aa49c3e088e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{1ad9ba4d-8b4c-4e35-a1e1-a9e7c43582b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Application\Config">
+      <UniqueIdentifier>{3366343d-f94a-42ff-9577-c1d3afe162b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Processing">
+      <UniqueIdentifier>{04c38968-fdb3-4ad2-a41f-01c3d7b23902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Module">
+      <UniqueIdentifier>{63615aa9-7e83-48e2-91d3-e411c551ca71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics">
+      <UniqueIdentifier>{ba5e05ae-313f-428d-9483-0f0a2b56ba67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics\Module">
+      <UniqueIdentifier>{88cf8691-71ac-4ea9-9fee-555a47cf0ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics\System">
+      <UniqueIdentifier>{c227ef50-3d59-4f34-811c-13f586196a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendersystem">
+      <UniqueIdentifier>{ccfcd455-3edf-4cc5-9996-48b3c72fd085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendersystem\Culling">
+      <UniqueIdentifier>{2ba0fb6d-e487-42b5-90a5-80e013cc27d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendersystem\Debug">
+      <UniqueIdentifier>{8c347862-68b2-4997-a059-410f14d27f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rendersystem\Debug\Effects">
+      <UniqueIdentifier>{9e3da3bd-a226-42f0-a628-8ccdbcbe824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\ResourceSystem">
+      <UniqueIdentifier>{b2c2832c-7ac0-4faa-9bf8-14ff80315b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\ResourceSystem\Loaders">
+      <UniqueIdentifier>{9868d209-a1a5-4e51-9cbc-cb39ad4c3648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources">
+      <UniqueIdentifier>{60bf5efb-aedc-490b-bf2c-190806e7b2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Shader">
+      <UniqueIdentifier>{ba870e6c-4f68-41fe-9fdd-f0496ce9d28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Mesh">
+      <UniqueIdentifier>{2cb98e36-1903-4919-acf5-ea0133e025bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Material">
+      <UniqueIdentifier>{9a735726-369f-48f5-881c-a77b367cdd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Image">
+      <UniqueIdentifier>{8b9da1d2-df02-4ade-9ad7-228092b53453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Postprocessing">
+      <UniqueIdentifier>{a7d2e5d6-d3a1-43c5-b4a3-9c0d0631c8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Postprocessing\System">
+      <UniqueIdentifier>{081da574-9de1-49f0-8a4c-2fde81d1aa41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Postprocessing\Module">
+      <UniqueIdentifier>{9bcd75e4-193c-4451-95ae-72e7c6bab1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\Mesh\Effects">
+      <UniqueIdentifier>{f9f53fb7-640a-41f6-84fa-effaa058b782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Resources\GameObject">
+      <UniqueIdentifier>{b8e23f09-1c92-412f-92ca-fc9d976104cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GameObject">
+      <UniqueIdentifier>{4e11e5e9-3b3a-4101-b485-a60c449e9c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GameObject\Components">
+      <UniqueIdentifier>{fbeff568-0a75-4087-a380-4edf731d062e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GameObject\System">
+      <UniqueIdentifier>{e703b9e2-531a-4b12-9f51-7a29c54c3b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GameObject\Module">
+      <UniqueIdentifier>{217303aa-b626-4bbb-8330-cc4ad1a88be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{5d4dc2a6-fd51-4101-b092-1ee1aa339ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Input">
+      <UniqueIdentifier>{5ee2d22a-f9e5-4c3d-a13c-2c5863567373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera\System">
+      <UniqueIdentifier>{035e1651-54ec-443a-bb2d-08f1b738209c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\skyApplicationSettings.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\document.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\filestream.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\prettywriter.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\rapidjson.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\reader.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\stringbuffer.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\writer.h">
+      <Filter>Components\Extern\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\internal\strfunc.h">
+      <Filter>Components\Extern\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\internal\pow10.h">
+      <Filter>Components\Extern\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\rapidjson\internal\stack.h">
+      <Filter>Components\Extern\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\skyIApplication.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_engine.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_engine_types.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="inc_engine_helper.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_engine_externs.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Config\skyConfigs.h">
+      <Filter>Components\Application\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Config\skyConfigVector3Type.h">
+      <Filter>Components\Application\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing\skyProcessible.h">
+      <Filter>Components\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\skyApplication.h">
+      <Filter>Components\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\skyModuleManager.h">
+      <Filter>Components\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\skyModule.h">
+      <Filter>Components\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Module\skyGfxModule.h">
+      <Filter>Components\Graphics\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Processing\skyProcessManager.h">
+      <Filter>Components\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\System\skyGfxManager.h">
+      <Filter>Components\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\System\skyGfxInstance.h">
+      <Filter>Components\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\skyGfxRenderTechnique.h">
+      <Filter>Components\Rendersystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\skyGfxRenderPass.h">
+      <Filter>Components\Rendersystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\skyGfxRenderBatch.h">
+      <Filter>Components\Rendersystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\Debug\skyGfxDebugTypes.h">
+      <Filter>Components\Rendersystem\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\Debug\skyGfxDebugDrawManager.h">
+      <Filter>Components\Rendersystem\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\skyResourceLoader.h">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\skyResourceManager.h">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\skyResourceManagerInstance.h">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyImageResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyShaderResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\skyResource.h">
+      <Filter>Components\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shader\skyShaderUtils.h">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shader\skyShaderResource.h">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Image\skyImageResource.h">
+      <Filter>Components\Resources\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Postprocessing\skyImageFilter.h">
+      <Filter>Components\Postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Postprocessing\System\skyImageFilterInstance.h">
+      <Filter>Components\Postprocessing\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Postprocessing\System\skyImageFilterManager.h">
+      <Filter>Components\Postprocessing\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Postprocessing\Module\skyImageFilterModule.h">
+      <Filter>Components\Postprocessing\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendersystem\Culling\skyGfxCullingManager.h">
+      <Filter>Components\Rendersystem\Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Config\skyConfigManager.h">
+      <Filter>Components\Application\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Image\skyImageUtils.h">
+      <Filter>Components\Resources\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Mesh\skyMeshUtils.h">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Mesh\skyMeshResource.h">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyMeshResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Mesh\skySubmeshResource.h">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Material\skyMaterialUtils.h">
+      <Filter>Components\Resources\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Material\skyMaterialResource.h">
+      <Filter>Components\Resources\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyMaterialResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Shader\skyEffectResource.h">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyEffectResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\GameObject\skyGameObjectPrefabUtils.h">
+      <Filter>Components\Resources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\skyGameObject.h">
+      <Filter>Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\GameObject\skyGameObjectPrefabResource.h">
+      <Filter>Components\Resources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSystem\Loaders\skyGameObjectPrefabResourceLoader.h">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc_engine_interfaces.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\skyGameObjectComponent.h">
+      <Filter>Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Components\skyTransformComponent.h">
+      <Filter>Components\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Module\skyGameObjectModule.h">
+      <Filter>Components\GameObject\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\System\skyGameObjectManagerInstance.h">
+      <Filter>Components\GameObject\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\System\skyGameObjectManager.h">
+      <Filter>Components\GameObject\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\System\skyCameraManagerInstance.h">
+      <Filter>Components\Camera\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\skyPerspectiveCamera.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\System\skyCameraManager.h">
+      <Filter>Components\Camera\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\skyApplicationSettings.cpp">
+      <Filter>Components\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="inc_engine_externs.cpp">
+      <Filter>Inc</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Config\skyConfigs.cpp">
+      <Filter>Components\Application\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Config\skyConfigVector3Type.cpp">
+      <Filter>Components\Application\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\skyApplication.cpp">
+      <Filter>Components\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\skyModule.cpp">
+      <Filter>Components\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\skyModuleManager.cpp">
+      <Filter>Components\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Module\skyGfxModule.cpp">
+      <Filter>Components\Graphics\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Processing\skyProcessManager.cpp">
+      <Filter>Components\Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\System\skyGfxInstance.cpp">
+      <Filter>Components\Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\System\skyGfxManager.cpp">
+      <Filter>Components\Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\skyGfxRenderTechnique.cpp">
+      <Filter>Components\Rendersystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\skyGfxRenderPass.cpp">
+      <Filter>Components\Rendersystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\skyGfxRenderBatch.cpp">
+      <Filter>Components\Rendersystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\Debug\skyGfxDebugTypes.cpp">
+      <Filter>Components\Rendersystem\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\Debug\skyGfxDebugDrawManager.cpp">
+      <Filter>Components\Rendersystem\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\skyResourceLoader.cpp">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\skyResourceManager.cpp">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\skyResourceManagerInstance.cpp">
+      <Filter>Components\ResourceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyImageResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyShaderResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\skyResource.cpp">
+      <Filter>Components\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shader\skyShaderResource.cpp">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shader\skyShaderUtils.cpp">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Image\skyImageResource.cpp">
+      <Filter>Components\Resources\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Postprocessing\skyImageFilter.cpp">
+      <Filter>Components\Postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Postprocessing\System\skyImageFilterInstance.cpp">
+      <Filter>Components\Postprocessing\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Postprocessing\System\skyImageFilterManager.cpp">
+      <Filter>Components\Postprocessing\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Postprocessing\Module\skyImageFilterModule.cpp">
+      <Filter>Components\Postprocessing\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendersystem\Culling\skyGfxCullingManager.cpp">
+      <Filter>Components\Rendersystem\Culling</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Config\skyConfigManager.cpp">
+      <Filter>Components\Application\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Image\skyImageUtils.cpp">
+      <Filter>Components\Resources\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Mesh\skyMeshResource.cpp">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Mesh\skyMeshUtils.cpp">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyMeshResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Mesh\skySubmeshResource.cpp">
+      <Filter>Components\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Material\skyMaterialResource.cpp">
+      <Filter>Components\Resources\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Material\skyMaterialUtils.cpp">
+      <Filter>Components\Resources\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyMaterialResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Shader\skyEffectResource.cpp">
+      <Filter>Components\Resources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyEffectResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\GameObject\skyGameObjectPrefabUtils.cpp">
+      <Filter>Components\Resources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\skyGameObject.cpp">
+      <Filter>Components\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\GameObject\skyGameObjectPrefabResource.cpp">
+      <Filter>Components\Resources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSystem\Loaders\skyGameObjectPrefabResourceLoader.cpp">
+      <Filter>Components\ResourceSystem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Components\skyTransformComponent.cpp">
+      <Filter>Components\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Module\skyGameObjectModule.cpp">
+      <Filter>Components\GameObject\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\System\skyGameObjectManager.cpp">
+      <Filter>Components\GameObject\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\System\skyGameObjectManagerInstance.cpp">
+      <Filter>Components\GameObject\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\System\skyCameraManagerInstance.cpp">
+      <Filter>Components\Camera\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\skyPerspectiveCamera.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\System\skyCameraManager.cpp">
+      <Filter>Components\Camera\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\Assets\Shaders\debug_vs.hlsl">
+      <Filter>Components\Rendersystem\Debug\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Assets\Shaders\debug_ps.hlsl">
+      <Filter>Components\Rendersystem\Debug\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Bin\Data\Raw\Shader\default_static_vs.hlsl">
+      <Filter>Components\Resources\Mesh\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Bin\Data\Raw\Shader\default_static_ps.hlsl">
+      <Filter>Components\Resources\Mesh\Effects</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
